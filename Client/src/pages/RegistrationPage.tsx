@@ -11,24 +11,30 @@ function RegistrationPage() {
 				<h2>Welcome to the Hiking Blogger Family</h2>
 				<h3>Already Signed Up? Sign In</h3>
 				<div className="fill-info">
-					<input type="text" />
-					<input type="text" />
-					<input type="text" />
-					<input type="text" />
+					<div className="name">
+						<input type="text" placeholder="First name" />
+						<input type="text" placeholder="Last name" />
+					</div >
+					<input className="email" type="text" placeholder="Your Email Address" />
+					<input className="passwrod" type="text" placeholder="Create a Password" />
 				</div>
-				<div>
-					<label className="country">Country of Residence</label>
-					<label className="province">Province (State) of Residence</label>
-				</div>
-				<div>
-					<select id="countries" className="countries">
-							<option value="canada">Canada</option>
-							<option value="usa">USA</option>
-					</select>
-					<select id="provinces" className="provinces">
-						<option value="bc">BC</option>
-						<option value="on">ON</option>
-					</select>
+				<div className="location">
+					<div className="country">
+						<label>Country of Residence</label>
+						<select>
+								<option value="option">Select an option</option>
+								<option value="canada">Canada</option>
+								<option value="usa">USA</option>
+							</select>
+					</div>
+					<div className="province">
+						<label>Province (State) of Residence</label>
+						<select>
+							<option value="option">Select an option</option>
+							<option value="bc">BC</option>
+							<option value="on">ON</option>
+						</select>
+					</div>
 				</div>
 				<button>SIGN UP</button>
 			</div>
