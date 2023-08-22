@@ -1,0 +1,24 @@
+.register-page {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	/* width: 800px;
+	height: 500px;
+	border-radius: 10px; */
+	/* padding-top: 200;
+	padding-bottom: 200;
+	padding-left: 100;
+	padding-right: 100; */
+}
+
+.client-survey {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.fill-info {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
