@@ -1,9 +1,11 @@
-// ReactDOM.render(<h1>Hello, everyone!</h1>);
 import "./RegistrationPage.css"
 import Traveller from "../images/traveller-logo.png"
+import NavBar from "../components/NavBar"
 
 function RegistrationPage() {
 	return (
+		<>
+		<NavBar />
 		<div className="register-page">
 			<img src={Traveller} className="traveller-logo"></img>
 			<div className="client-survey">
@@ -38,8 +40,8 @@ function RegistrationPage() {
 				</div>
 				<button>SIGN UP</button>
 			</div>
-	
-			</div>
+		</div>
+		</>
 	)
 }
 
