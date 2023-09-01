@@ -1,5 +1,6 @@
 import './App.css';
 import HomePage from './pages/HomePage';
+import NavigationPage from './pages/NavigationPage';
 import RegistrationPage from "./pages/RegistrationPage";
 
 function App() {
@@ -22,8 +23,8 @@ function App() {
 		// </div>
 		<div>
 			{/* <HomePage /> */}
-
-			<RegistrationPage />
+			<NavigationPage />
+			{/* <RegistrationPage /> */}
 		</div>
 	)
 }
