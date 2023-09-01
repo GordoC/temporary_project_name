@@ -1,24 +1,56 @@
+body {
+	background-color: #E4F5F4;
+}
+
+.square--top {
+	background-color: #4E79E7;
+	width: 200px;
+	height: 200px;
+}
+
+.square--bottom {
+	background-color: #4E79E7;
+	width: 200px;
+	height: 200px;
+	/* margin-left: auto; */
+	position: fixed;
+  right: 0px; bottom: 0px;
+	
+	 z-index: -1;
+}
+
 .register-page {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	width: 1162px;
-	height: 730px;
-	top: 217px;
-	left: 142px;
 	border-radius: 10px;
+	background-color: white;
+	box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.3);
 	position: absolute;
-	height: 80%; 
+	height: 75%; 
 	width: 80%; 
-	top: 15%; 
-	left: 7%; 
+	top: 20%; 
+	bottom: 10%; 
+	left: 10%; 
+	right: 10%;
+
+	/* position: relative;
+	width: 80%; 
+	top: -100px;
+  bottom: -100px;
+  left: 130px;
+	right: 130px; */
+}
+
+.traveller-logo {
+	width: 50%; 
 }
 
 .client-survey {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin-left: 80px;
+	width: 50%;
 }
 
 .fill-info {
@@ -36,6 +68,7 @@ h1 {
 	line-height: 36px;
 	letter-spacing: 0em;
 	text-align: center;
+	text-shadow: 2px 3px 4px grey;
 }
 
 h2 {

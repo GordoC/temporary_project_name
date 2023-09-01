@@ -21,8 +21,9 @@ function App() {
 		//   </header>
 		// </div>
 		<div>
-			<HomePage />
-			{/* <RegistrationPage /> */}
+			{/* <HomePage /> */}
+
+			<RegistrationPage />
 		</div>
 	)
 }

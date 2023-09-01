@@ -4,11 +4,12 @@ import NavBar from "../components/NavBar"
 
 function RegistrationPage() {
 	return (
-		<>
+		<div>
 		<NavBar />
+		<div className="square--top"></div>
 		<div className="register-page">
 			<img src={Traveller} className="traveller-logo"></img>
-			<div className="client-survey">
+			<form className="client-survey">
 				<h1>Register</h1>
 				<h2>Welcome to the Hiking Blogger Family</h2>
 				<h3>Already Signed Up? Sign In</h3>
@@ -39,9 +40,10 @@ function RegistrationPage() {
 					</div>
 				</div>
 				<button>SIGN UP</button>
-			</div>
+			</form>
 		</div>
-		</>
+		<div className="square--bottom"></div>
+		</div>
 	)
 }
 
