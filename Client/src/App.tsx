@@ -1,4 +1,5 @@
 import './App.css';
+import HomePage from './pages/HomePage';
 import RegistrationPage from "./pages/RegistrationPage";
 
 function App() {
@@ -20,7 +21,8 @@ function App() {
 		//   </header>
 		// </div>
 		<div>
-			<RegistrationPage />
+			<HomePage />
+			{/* <RegistrationPage /> */}
 		</div>
 	)
 }
