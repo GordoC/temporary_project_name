@@ -1,5 +1,6 @@
 import './App.css';
 import RegistrationPage from "./pages/RegistrationPage";
+import Card from './cards/Card';
 
 function App() {
 	return (
@@ -21,6 +22,7 @@ function App() {
 		// </div>
 		<div>
 			<RegistrationPage />
+			<Card />
 		</div>
 	)
 }

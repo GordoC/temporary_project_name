@@ -1,7 +1,13 @@
 import React from 'react'
-// import trailphoto from '../cards/assets/trail_photo.jpg';
+import trailphoto from '../cards/assets/trail_photo.jpg';
 import './card.css'
 
+const example_trail = {
+    photo: trailphoto,
+    name: "Lion's bay",
+    rating: 4,
+    difficulty: "medium",
+  };
 
 
 //Specs: take a trail object, and return a svg stars elements based on the rating (i.e. is rating == 4, returns 4 svg stars element )
@@ -34,7 +40,7 @@ import './card.css'
 
 
 //Specs: main components, takes a trail object and display the card components and demonstrates the key information 
-const Card = ({photo, name, rating, difficulty}) => {
+const Card = ({photo:String, name, rating, difficulty}) => {
   
   return(
     <div className='card container'>
