@@ -2,6 +2,20 @@ import './App.css';
 import HomePage from './pages/HomePage';
 import NavigationPage from './pages/NavigationPage';
 import RegistrationPage from "./pages/RegistrationPage";
+import Card from './components/Card';
+import Traveller from '../src/images/traveller-logo.png'
+
+
+
+//type of the trail
+// interface props{
+//   photo: string;
+//   name: string;
+//   rating: number;
+//   difficulty: string;
+// }
+
+
 
 function App() {
   return (
@@ -24,7 +38,8 @@ function App() {
     <div>
       {/* <HomePage /> */}
       {/* <NavigationPage /> */}
-      <RegistrationPage />
+      {/* <RegistrationPage /> */}
+      <Card photo={Traveller} name={"Lion's bay"} rating={4} difficulty='medium' />
     </div>
   )
 }

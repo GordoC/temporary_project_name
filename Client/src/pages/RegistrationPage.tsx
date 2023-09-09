@@ -3,6 +3,8 @@ import Traveller from "../images/traveller-logo.png"
 import NavBar from "../components/NavBar"
 
 function RegistrationPage() {
+  // add states 
+
   return (
     <div>
       <NavBar />
