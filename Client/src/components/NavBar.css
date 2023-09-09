@@ -1,46 +1,45 @@
-
 .nav-bar {
-    display: flex;
-    font-family: 'Roboto', sans-serif;
-    color: aliceblue;
-    background-color: #5AA1F4;
-    padding: 10px;
-    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.3);
-  }
-    
-  .navbar--logo {
-    width: 120px;
-    height: 90px;
-    padding: 1px;
-  }
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  color: aliceblue;
+  background-color: #5AA1F4;
+  padding: 10px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.3);
+}
 
-  .navbar--items {
-    display: flex;
-    list-style: none;
-    margin-left: auto;
-		margin-bottom: 0px;
-    padding: 10px;
-    gap: 10px;
-  }
-  
-	.item {
-		margin: 0px 25px;
-	}
+.navbar--logo {
+  width: 120px;
+  height: 90px;
+  padding: 1px;
+}
 
-  .item li {
-		font-size: 20px;
-		font-weight: bold;
-		text-transform: uppercase;
-  }
+.navbar--items {
+  display: flex;
+  list-style: none;
+  margin-left: auto;
+  margin-bottom: 0px;
+  padding: 10px;
+  gap: 10px;
+}
 
-	.item div {
-		height: 5px;
-		background-color: white;
-		margin-top: 10px;
-  }
+.item {
+  margin: 0px 25px;
+}
 
-	.sign {
-		list-style-position: inside;
-    border: 5px solid white;
-		padding: 10px 6px 10px 6px;
-	}
+.item li {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.item div {
+  height: 5px;
+  background-color: white;
+  margin-top: 10px;
+}
+
+.sign {
+  list-style-position: inside;
+  border: 5px solid white;
+  padding: 10px 6px 10px 6px;
+}
