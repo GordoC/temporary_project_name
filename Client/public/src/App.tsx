@@ -1,5 +1,16 @@
 import './App.css';
 import RegistrationPage from "./pages/RegistrationPage";
+import Card from './cards/Card';
+import TrailProfile from './TrailInfoPage/TrailProfile';
+import trailphoto from '../images/trail_photo.jpg';
+
+//example constant 
+const example_trail = {
+    photo: trailphoto,
+    name: "Lion's bay",
+    rating: 4,
+    difficulty: "medium",
+  };
 
 function App() {
 	return (
@@ -20,7 +31,7 @@ function App() {
 		//   </header>
 		// </div>
 		<div>
-			<RegistrationPage />
+			<Card photo={trailphoto} name="Lion's bay" rating={4} difficulty='medium' />
 		</div>
 	)
 }
